@@ -15,14 +15,10 @@ const Dashboard = () => {
         <div className="my-8">
             <div className="mb-14 px-14">
                 <h5 className="text-center text-4xl font-semibold">Hey, <span className="capitalize">{user.username}</span> <br />Check Your Poll Results !!</h5>
-                <p className="text-center text-md font-mono mt-2">
-                    The leftmost column shows your selections.
-                    Also a ? in the rank column or a score of 0
-                    means that the dish has not been ranked by any user.
-                </p>
+
             </div>
 
-            <div className="flexitems-center justify-center my-4 w-full">
+            <div className="flex items-center justify-center mx-auto my-4 w-full">
                 <div className="overflow-x-auto relative shadow-md sm:rounded-lg md:w-[900px]">
                     <table className="w-full  text-left text-gray-500 dark:text-gray-400">
                         <thead className="text-md text-gray-700  border-b-2  border-gray-400">

@@ -64,7 +64,7 @@ const Home = () => {
         <div className="w-full mt-6 mb-4">
           <div className="px-14 my-6">
             <p className="sm:text-4xl text-3xl font-semibold">Select and rank <br /> of your favorite dishes </p>
-            <p className="text-lg text-gray-700 font-mono mt-2">You have ranked 0 dishes</p>
+            {/* <p className="text-lg text-gray-700 font-mono mt-2">You have ranked 0 dishes</p> */}
           </div>
           <div className="grid gap-4 lg:grid-cols-4  sm:grid-cols-2 grid-cols-1  w-full mt-4 px-12">
             {

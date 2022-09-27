@@ -15,7 +15,15 @@ const Dashboard = () => {
         <div className="my-8">
             <div className="mb-14 px-14">
                 <h5 className="text-center text-4xl font-semibold">Hey, <span className="capitalize">{user.username}</span> <br />Check Your Poll Results !!</h5>
-
+                <div className="container mx-auto">
+                    <p className="text-center font-mono text-gray-600 my-4 ">
+                        The leftmost column shows your selections Rank.
+                        Also a (1, 2, 3 format) in the rank column or a score of (30, 20, 10)
+                        means that the dish  rank by any user. And middle column
+                        shows you your ranked disheses which are empty now.
+                        It will show the rank when you select your dishes rank
+                    </p>
+                </div>
             </div>
 
             <div className="flex items-center justify-center mx-auto my-4 w-full">

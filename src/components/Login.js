@@ -86,7 +86,7 @@ const Login = () => {
                             placeholder="Password"
                             value={userpassword}
                             onChange={(event => setUserPassword(event.target.value))}
-                            className="border border-gray-400 px-2 py-3 rounded outline-orange-400 text-md font-semibold"
+                            className="border border-gray-400 px-2 h-12 sm:w-80 w-50 rounded outline-orange-400 text-md font-semibold"
                         />
 
                     </div>
